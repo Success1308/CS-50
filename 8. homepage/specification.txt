@@ -1,0 +1,18 @@
+HTML Tags Used:
+1. <div>
+2. <a>
+3. <ul>
+4. <li>
+5. <h1>
+6. <p>
+7. <header>
+8. <nav>
+9. <footer>
+10. <button>
+
+CSS Properties Used:
+1. font-family
+2. margin-top
+3. text-align
+4. color
+5. background-color

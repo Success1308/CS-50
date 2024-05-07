@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: The time taken for sort1 also increases quadratically with the size of the input, but the time taken for sorted inputs is significantly less than the time taken for random inputs. This is a characteristic of Bubble Sort, which has a time complexity of O(n^2) but performs better on already sorted inputs.
+
+sort2 uses: Merge Sort
+
+How do you know?: The time taken for sort2 increases logarithmically with the size of the input, and the time taken for sorted inputs is similar to the time taken for random inputs. This is a characteristic of Merge Sort, which has a time complexity of O(n log n) and performs consistently regardless of the input order.
+
+sort3 uses: Selection Sort
+
+How do you know?: The time taken for sort3 increases quadratically with the size of the input, and the time taken for sorted inputs is similar to the time taken for random inputs. This is a characteristic of Selection Sort, which has a time complexity of O(n^2) and performs similarly regardless of the input order.

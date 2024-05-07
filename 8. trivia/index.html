@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Trivia!</title>
+    <script>
+        function checkMultipleChoice(answer) {
+            var correctAnswer = "1 person per 6 sheep"; // Define correct answer
+            var resultText = document.getElementById("multiple-choice-result");
+
+            if (answer === correctAnswer) {
+                resultText.innerText = "Correct!";
+                resultText.style.color = "green";
+            } else {
+                resultText.innerText = "Incorrect";
+                resultText.style.color = "red";
+            }
+        }
+
+        function checkFreeResponse() {
+            var userAnswer = document.getElementById("free-response-answer").value;
+            var correctAnswer = "Switzerland"; // Define correct answer
+            var resultText = document.getElementById("free-response-result");
+
+            if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+                resultText.innerText = "Correct!";
+                resultText.style.color = "green";
+            } else {
+                resultText.innerText = "Incorrect";
+                resultText.style.color = "red";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="header">
+        <h1>Trivia!</h1>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2>Part 1: Multiple Choice</h2>
+            <hr>
+            <h3>What is the approximate ratio of people to sheep in New Zealand?</h3>
+            <button onclick="checkMultipleChoice('6 people per 1 sheep')">6 people per 1 sheep</button>
+            <button onclick="checkMultipleChoice('3 people per 1 sheep')">3 people per 1 sheep</button>
+            <button onclick="checkMultipleChoice('1 person per 1 sheep')">1 person per 1 sheep</button>
+            <button onclick="checkMultipleChoice('1 person per 3 sheep')">1 person per 3 sheep</button>
+            <button onclick="checkMultipleChoice('1 person per 6 sheep')">1 person per 6 sheep</button>
+            <p id="multiple-choice-result"></p>
+        </div>
+
+        <div class="section">
+            <h2>Part 2: Free Response</h2>
+            <hr>
+            <h3>In which country is it illegal to own only one guinea pig, as a lone guinea pig might get lonely?</h3>
+            <input type="text" id="free-response-answer">
+            <button onclick="checkFreeResponse()">Check Answer</button>
+            <p id="free-response-result"></p>
+        </div>
+    </div>
+</body>
+</html>

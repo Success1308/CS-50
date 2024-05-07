@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block title %}
+Look up
+{% endblock %}
+{% block main %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Symbol</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>{{ stock["name"] }}</td>
+                        <td>{{ stock["price"] }}</td>
+                        <td>{{ stock["symbol"] }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}

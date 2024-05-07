@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+{% block title %}
+Look up
+{% endblock %}
+{% block main %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <form action="/quote" method="post" class="mb-4">
+                <div class="input-group">
+                    <input autocomplete="off" autofocus class="form-control" name="symbol" placeholder="Enter Stock Symbol" type="text">
+                    <button class="btn btn-primary" type="submit">Look up</button>
+                </div>
+            </form>
+
+            {% if stock %}
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    Stock Quote
+                </div>
+                <div class="card-body">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">Symbol</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>{{ stock.symbol }}</td>
+                                <td>{{ stock.name }}</td>
+                                <td>{{ stock.price }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

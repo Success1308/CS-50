@@ -1,0 +1,29 @@
+If songs.db contains one listener's top 100 songs from 2018, the listener's audio aura can be described using the average energy, valence, and danceability of those songs.
+Energy relates to the perceived intensity and activity level of the music, valence shows the positivity or negativity of the music, and danceability indicates how appropriate a track is for dancing based on its rhythm and pace.
+
+
+For example, if the listener's top 100 songs have a high average energy level, with cheerful rhythms and quick tempos, it may indicate that the person appreciates energetic and vibrant music.
+A high valence indicates a taste for happy and uplifting music, whilst a high danceability suggests a liking for music that is simple to move to and has a strong rhythm.
+
+However, this approach of determining the audio aura may not be highly reflective of the listener for various reasons:
+
+    1. Lack of diversity: The top 100 songs may not accurately reflect the listener's musical tastes and preferences.
+                            They may include tracks from a narrow range of genres or performers, ignoring other aspects of the listener's musical preferences.
+
+    2. Temporal bias: Choosing music from a single year (2018 in this case) may not reflect changes in the listener's choices over time. People's musical tastes change,
+                        and their favourite songs from one year may not fully reflect their overall choices.
+
+
+    3.Subjectivity of mood: While energy, valence, and danceability are useful measurements, they may not adequately convey music's emotional complexity
+                        and influence on individual listeners. Different people may perceive the same song differently in terms of mood and emotional resonance.
+
+
+To properly portray the listener's auditory aura, I would recommend the following improvements:
+
+    - Incorporate genre diversity: Consider the range of genres represented in the listener's music library, as different genres can elicit varied emotional responses and moods.
+
+    - Longer time period: Instead of limiting the analysis to one year, consider a longer time frame to get a more comprehensive picture of the listener's musical tastes and patterns throughout time.
+
+    - Allow users to submit feedback on the correctness of their audio aura, and the calculation will be adjusted according on their input, making the process more personalized and reflecting individual tastes.
+
+
