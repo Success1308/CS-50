@@ -179,22 +179,24 @@ This repository contains the projects I completed as part of CS50, Harvard Unive
 
 ### Week 9: JavaScript - Finance
 
-- **Description:** A web application that allows users to buy and sell stocks using real-time stock data.
-- **Folder:** finance/
 
+### Week 10:
+### Final Project
+
+- **Description:** Rock Paper Scissors Game
+- **Folder:** rock-paper-scissors/
+
+Video Demo: [Watch Video Demo](https://youtu.be/hwpdhsHyRZ8?si=otXUMmDd_c5INiDR)
+
+#### Description:
+
+The Rock Paper Scissors Game is a simple web application that lets you play the traditional game against a computer opponent. 
+The game interface consists of three buttons that depict rock, paper, and scissors, respectively. When a user hits one of these buttons, the game randomly selects one of the three alternatives for the computer, compares it against the user's selection, and judges the winner depending on the game's rules.
 
 
 ---
+## 🏆 Certificate of Completion
 
-
----
-
-Feel free to modify and add more content as needed. Let me know if you need further assistance!
-
-
----
-
-![CS50x](https://github.com/Success1308/CS-50/assets/167788445/dfb5e94e-1ab5-4e82-898c-e83221e8b5d0)
-
+[![Certificate of Completion] ![CS50x](https://github.com/Success1308/CS-50/assets/167788445/dfb5e94e-1ab5-4e82-898c-e83221e8b5d0)
 
 ---
