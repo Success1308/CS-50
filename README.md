@@ -197,6 +197,6 @@ The game interface consists of three buttons that depict rock, paper, and scisso
 ---
 ## 🏆 Certificate of Completion
 
-[![Certificate of Completion] ![CS50x](https://github.com/Success1308/CS-50/assets/167788445/dfb5e94e-1ab5-4e82-898c-e83221e8b5d0)
+![CS50x](https://github.com/Success1308/CS-50/assets/167788445/dfb5e94e-1ab5-4e82-898c-e83221e8b5d0)
 
 ---
