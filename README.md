@@ -1,7 +1,7 @@
 # CS50 Projects
 
 Welcome to my collection of projects completed during my time as a student in Harvard's CS50 course!
-
+<!--
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -35,7 +35,7 @@ Welcome to my collection of projects completed during my time as a student in Ha
   - [Week 9: JavaScript - Birthdays](#week-9-javascript---birthdays)
   - [Week 9: JavaScript - Finance](#week-9-javascript---finance)
   - [Final Project](#final-project)
-
+-->
 ## Introduction
 
 This repository contains the projects I completed as part of CS50, Harvard University's introduction to computer science course. Each week, we explored different aspects of computer science through problem sets and projects, covering topics such as algorithms, data structures, web development, and more.
