@@ -7,7 +7,6 @@ int calculate_coins(int value, int coin_value);
 
 
 
-
 int main(void)
 {
     int cents;
