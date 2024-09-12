@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+
 bool only_digits(string str);
 char rotate(char c, int n);
 
