@@ -1,7 +1,5 @@
 # CS50 Projects
 
-
-
 Welcome to my collection of projects completed during my time as a student in Harvard's CS50 course!
 <!--
 ## Table of Contents
